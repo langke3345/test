@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <title>bootstrap期中考试</title>
+    <style>
+      @import url(./bootstrap-icons-1.9.1/bootstrap-icons.css);
+      .common-height {
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+      }
+      .common-margin {
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+
+        border-radius: 5px;
+      }
+      .left-top {
+        height: 400px;
+      }
+      .left-top img {
+        margin-top: 15px;
+        width: 200px;
+      }
+      .left-center {
+        height: 160px;
+      }
+      i {
+        color: red;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      ul li {
+        list-style: none;
+      }
+      .text-left a {
+        margin-left: 5px;
+      }
+      .progress {
+        margin: 10px 0;
+      }
+      .right-top {
+        padding-top: 30px;
+        height: 220px;
+        background-color: #eeeeee;
+      }
+      .right-top p {
+        margin-right: 50px;
+      }
+      .right-two {
+        text-align: center;
+        height: 200px;
+      }
+      .right-two > div {
+        display: inline-block;
+        margin: 10px;
+        width: 30%;
+      }
+      .right-two img {
+        width: 100%;
+      }
+      .zuopin-info {
+        width: 100%;
+      }
+      .you-er {
+        margin-top: 10px;
+        height: 280px;
+      }
+      .gzjy {
+        margin: 5px 0;
+      }
+      .gzjy:nth-child(1) {
+        margin-top: 0;
+      }
+
+      .gzjy:nth-child(4) {
+        margin-bottom: 0;
+      }
+      .gzjy{
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col col-lg-3">
+          <div class="text-center left-top border common-margin">
+            <div class="bg-secondary border common-height">个人信息</div>
+            <img src="./images/1152541G4-1.jpg" alt="" />
+            <div class="text-primary">朱胜强</div>
+            <ul class="text-left">
+              <li>
+                <i class="bi bi-house-door-fill"></i
+                ><a href="#" class="text-dark">河南省三门峡市</a>
+              </li>
+              <li>
+                <i class="bi bi-building"></i
+                ><a href="#" class="text-dark">阿里计算机系统有限公司</a>
+              </li>
+              <li>
+                <i class="bi bi-phone"></i
+                ><a href="#" class="text-dark">联系电话：844648435486</a>
+              </li>
+              <li>
+                <i class="bi bi-envelope"></i>
+                <a href="#" class="text-dark">邮箱：5648946@qq.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="border left-center common-margin">
+            <div class="bg-info border common-height">个人技能</div>
+            <div class="ji-you">
+              <div class="progress">
+                <div
+                  class="progress-bar bg-success"
+                  role="progressbar"
+                  style="width: 100%"
+                  aria-valuenow="25"
+                  aria-valuemin="25"
+                  aria-valuemax="100"
+                >
+                  HTML
+                </div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  style="width: 100%"
+                  aria-valuenow="50"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  CSS
+                </div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-danger"
+                  role="progressbar"
+                  style="width: 25%"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  js
+                </div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-warning"
+                  role="progressbar"
+                  style="width: 50%"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  VUE
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 联系我 -->
+          <div class="common-margin">
+            <div class="common-height bg-primary border">联系我</div>
+            <div>
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">邮箱</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">姓名</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                  />
+                </div>
+                <div class="form-group form-check"></div>
+                <button type="submit" class="btn btn-primary">提交</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-9">
+          <div class="right-top text-right">
+            <p>参与多个网站的前端设计工作</p>
+            <p>参与<i>多个网站的前端设计</i>工作</p>
+            <p>参与多个网站的前端设计工作</p>
+            <p>参与多个网站的前端设计工作</p>
+          </div>
+          <div class="you-er">
+            <div class="left-center">
+              <div class="bg-warning common-height">作品展示</div>
+              <div class="right-two border">
+                <div>
+                  <img src="./images/1152541G4-1.jpg" alt="" />
+                  <div class="zuopin-info">项目名称</div>
+                </div>
+                <div>
+                  <img src="./images/1152541G4-1.jpg" alt="" />
+                  <div class="zuopin-info">项目名称</div>
+                </div>
+                <div>
+                  <img src="./images/1152541G4-1.jpg" alt="" />
+                  <div class="zuopin-info">项目名称</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="border">
+            <div class="bg-danger common-height text-left gzjy">工作经历</div>
+            <div class="common-height border gzjy">
+              <span>2024-9</span><span>xx公司</span><span>前端工程师</span>
+            </div>
+            <div class="common-height border gzjy">
+              <span>2025-9</span><span>xx公司</span><span>前端工程师</span>
+            </div>
+            <div class="common-height border gzjy">
+              <span>2026-9</span><span>xx公司</span><span>前端工程师</span>
+            </div>
+          </div>
+          <div class="border">
+            <div class="bg-info common-height text-left gzjy">教育经历</div>
+            <div class="common-height border gzjy"><span><b>时间</b></span><span><b>学校</b></span><span><b>专业</b></span></div>
+            <div class="common-height border gzjy"><span>1999-2000</span><span>北京大学</span><span>软件工程</span></div>
+            <div class="common-height border gzjy"><span>1999-2000</span><span>北京大学</span><span>软件工程</span></div>
+            <div class="common-height border gzjy"><span>1999-2000</span><span>北京大学</span><span>软件工程</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
